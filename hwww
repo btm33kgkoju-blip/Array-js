@@ -1,0 +1,36 @@
+<html>
+  <body>
+      <h2>Array Methods</h2>
+      <p id="joining"></p>
+      <p id="poping"></p>
+      <p id="poping1"></p>
+      <script>
+        var transport=["Trains","Bus","Metro","Cars"]
+        document.getElementById("joining").innerHTML=transport.join("$");
+        document.getElementById("poping").innerHTML=transport;transport.pop("&");
+        document.getElementById("poping1").innerHTML=transport;
+      </script>
+      <h2>Greetings!</h2>
+      <p id="hello"></p>
+      <script>
+       var lo=[
+        "hello",
+        "hi",
+        "Thx",
+      ];
+      document.getElementById("hello").innerHTML=lo[0];
+    </script>
+    <h3>Let's learn</h3>
+     <p id="^"></p>
+     <script>
+       function add(x,y){
+         return x+y;
+       }
+       function average(x,y){
+         return add(x,y)/2;
+       }
+       let result=average(9,57);
+       document.getElementById("^").innerHTML=result;
+     </script>
+  </body>
+</html>
